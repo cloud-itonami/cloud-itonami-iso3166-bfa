@@ -1,0 +1,11 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:ooyake-id "gov.bfa"
+  :official-url "https://www.gouvernement.gov.bf/accueil"
+  :name-en "Burkina Faso"
+  :wikidata "Q965"
+  :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+  :contact-page "https://www.wikidata.org/wiki/Q3777"
+  :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)"
+  :hq {:line-en "Ouagadougou" :country "bfa" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q3777" :last-verified "2026-06-04" :sourcing "authoritative"}
+}
