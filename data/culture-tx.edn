@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "bfa.dish.to", :name "Tô", :country "BFA", :kind :dish, :summary "Cooled polenta-style cakes made from ground millet, sorghum or corn, served with vegetable sauce; the staple of the Burkinabe diet.", :url "https://en.wikipedia.org/wiki/Burkinabe_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bfa.dish.riz-gras", :name "Riz gras", :country "BFA", :kind :dish, :summary "Rice-based dish in Burkinabé and other West African cuisines, prepared with significant amounts of meat and vegetables; often served at parties in urban areas of Burkina Faso.", :url "https://en.wikipedia.org/wiki/Riz_gras", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bfa.dish.babenda", :name "Babenda", :country "BFA", :kind :dish, :summary "Mossi stew traditionally made with millet, wild greens and potash, now modernized to include a variety of ingredients.", :url "https://en.wikipedia.org/wiki/Burkinabe_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bfa.beverage.dolo", :name "Dôlo", :country "BFA", :kind :beverage, :summary "Beer made from pearl millet or sorghum, a common beverage of Burkina Faso.", :url "https://en.wikipedia.org/wiki/Burkinabe_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bfa.beverage.zomekome", :name "Zomekome", :country "BFA", :kind :beverage, :summary "Burkinabe soft drink made from millet flour, ginger, lemon juice and tamarind.", :url "https://en.wikipedia.org/wiki/Burkinabe_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/FESPACO", :id "bfa.festival.fespaco", :kind :festival, :name-local "Festival panafricain du cinéma et de la télévision de Ouagadougou", :country "BFA", :retrieved-at "2026-07-17", :summary "Panafrican Film and Television Festival of Ouagadougou, established in 1969 and held biennially in Ouagadougou; regarded as the main event of African cinema.", :name "FESPACO", :url-provenance :wikipedia-en}
+#:culture{:id "bfa.heritage.ruins-of-loropeni", :name "Ruins of Loropéni", :country "BFA", :kind :heritage, :summary "Stone walls of a medieval fortress near Loropéni in southern Burkina Faso, inscribed in 2009 as the country's first UNESCO World Heritage Site.", :url "https://en.wikipedia.org/wiki/Ruins_of_Lorop%C3%A9ni", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
